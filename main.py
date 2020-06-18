@@ -2,10 +2,10 @@ import cv2 as cv
 import os
 import settings
 
-bread_path = os.path.join(os.getcwd(), settings['ORGIN_IMG_PATH'])
+bread_path = os.path.join(os.getcwd(), settings.ORGIN_IMG_PATH)
 breads = os.listdir(bread_path)
 
-new_bread_path = os.path.join(os.getcwd(), settings['DESTINATION_IMG_PATH'])
+new_bread_path = os.path.join(os.getcwd(), settings.DESTINATION_IMG_PATH)
 
 for bread in breads:
   img_path = os.path.join(bread_path, bread)
