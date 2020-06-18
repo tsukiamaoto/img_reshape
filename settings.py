@@ -1,0 +1,2 @@
+ORGIN_IMG_PATH = 'origin'
+DESTINATION_IMG_PATH = 'dstImg'
